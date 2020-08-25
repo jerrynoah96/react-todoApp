@@ -1,0 +1,36 @@
+.dotContentBox{
+  height: 10vh;
+  width: auto;
+  padding: 0 1.5rem;
+  background-color:  rgba(30,144, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  z-index: 5;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+p{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+  .dotContentBox{
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .dotContentBox{
+    right: 7%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .dotContentBox{
+    right: 9%;
+  }
+}
